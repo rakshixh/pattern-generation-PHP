@@ -1,0 +1,36 @@
+body {
+    background-color: #264653;
+}
+
+.crdalign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: #2A9D8F;
+
+    border-radius: 30px;
+    border: 0px;
+
+    transition: 0.8s;
+}
+  
+.card:hover {
+    transform: scale(1.05);
+  }
+
+.container {
+    width: 450px;
+}
+
+p {
+    color: #F1FAEE;
+}
